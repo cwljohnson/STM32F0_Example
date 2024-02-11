@@ -1,0 +1,18 @@
+{
+    "image": "cwljohnson/stm32-dev-f0",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "akiramiyakoda.cppincludeguard",
+                "psioniq.psi-header"
+            ]
+        }
+    },
+    "runArgs": [
+        "--add-host",
+        "host.docker.internal:host-gateway"
+    ],
+    "workspaceMount": "source=${localWorkspaceFolder},target=/code/${localWorkspaceFolderBasename},type=bind,consistency=delegated",
+    "workspaceFolder": "/code/${localWorkspaceFolderBasename}/"
+}

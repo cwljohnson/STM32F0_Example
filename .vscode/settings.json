@@ -1,0 +1,44 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/armgcc",
+    "cmake.useCMakePresets": "always",
+    "psi-header.config": {
+        "forceToTop": true,
+        "creationDateZero": "now",
+    },
+    "psi-header.changes-tracking": {
+        "isActive": true
+    },
+    "psi-header.variables": [
+        [
+            "projectCreationYear",
+            "2024"
+        ]
+    ],
+    "psi-header.templates": [
+        {
+            "language": "c",
+            "template": [
+                "File: <<filename>>",
+                "-----",
+                "Author: <<author>>",
+                "Created: <<filecreated('YYYY/MM/DD')>>",
+                "-----",
+                "Last Modified: <<dateformat('YYYY/MM/DD')>>",
+                "Modified By: <<author>>"
+            ]
+        }
+    ],
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "C/C++ Include Guard.Comment Style": "Line",
+    "C/C++ Include Guard.Macro Type": "Filename",
+    "C/C++ Include Guard.Path Skip": 0,
+    "C/C++ Include Guard.Spaces After Endif": 1,
+    "C/C++ Include Guard.Path Depth": 0,
+    "C/C++ Include Guard.Prefix": "",
+    "C/C++ Include Guard.Suffix": "_H_",
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_style": "file:${workspaceFolder}/armgcc/.clang-format"
+}

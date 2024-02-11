@@ -1,0 +1,7 @@
+# build outputs
+armgcc/build
+output/
+
+# cubemx generated stuff we don't need
+Makefile
+.mxproject
