@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "executable": "./output/STM32F0_Example.elf",
+            "cwd": "${workspaceFolder}",
+            "interface": "swd",
+            "servertype": "external",
+            "gdbPath": "arm-none-eabi-gdb",
+            "gdbTarget": "host.docker.internal:1234",
+            "armToolchainPath": "/opt/arm-gnu-toolchain/bin"
+        }
+    ]
+}

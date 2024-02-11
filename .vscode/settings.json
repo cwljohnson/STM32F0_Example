@@ -40,5 +40,9 @@
     "C/C++ Include Guard.Prefix": "",
     "C/C++ Include Guard.Suffix": "_H_",
     "editor.formatOnSave": true,
-    "C_Cpp.clang_format_style": "file:${workspaceFolder}/armgcc/.clang-format"
+    "C_Cpp.clang_format_style": "file:${workspaceFolder}/armgcc/.clang-format",
+    "cortex-debug.armToolchainPath": "/opt/arm-gnu-toolchain/bin",
+    "cortex-debug.armToolchainPrefix": "arm-none-eabi",
+    "cortex-debug.variableUseNaturalFormat": false,
+    "debug.toolBarLocation": "docked"
 }

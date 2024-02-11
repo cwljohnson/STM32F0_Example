@@ -5,7 +5,8 @@
             "extensions": [
                 "ms-vscode.cpptools-extension-pack",
                 "akiramiyakoda.cppincludeguard",
-                "psioniq.psi-header"
+                "psioniq.psi-header",
+                "marus25.cortex-debug"
             ]
         }
     },

@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdint.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,7 +54,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t count = 0;
 /* USER CODE END 0 */
 
 /**
@@ -104,6 +104,7 @@ int main(void)
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
+        count++;
         LL_mDelay(500);
         LL_GPIO_SetOutputPin(LED1_GPIO_Port, LED1_Pin);
         LL_mDelay(500);
